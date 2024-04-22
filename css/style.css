@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 :root {
     --main-cinza: #CCCCCC;
     --main-branco: #FFFFFF;
@@ -17,7 +18,7 @@ body {
     font-weight: 300;
 }
 
-}
+
 
 body, input {
     font-family: 'Teko', sans-serif;
@@ -25,11 +26,14 @@ body, input {
 
 footer{
     display: flex;
-    padding: 2em 0 2em 0;
-    backgroud-color: #6495ED;
+    padding: 80px 0 0 0;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(0, 0, 0),  rgb(0, 0, 0));
     justify-content: center;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Permanent Marker', cursive;
+    color: white;
+    
+}
 
 main {
     width: 80vw;
@@ -245,3 +249,4 @@ main {
         margin: 10vh auto;
     }
 }
+
