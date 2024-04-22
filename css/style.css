@@ -16,6 +16,14 @@ body {
     margin: 0;
     font-weight: 300;
 }
+  .desenvolvido{
+    display: flex;
+    padding: 2em 0 2em 0;
+    backgroud-color: #6495ED;
+    justify-content: center;
+    font-size: 1em;
+    font-family: "Permanent Marker", cursive;
+}
 
 body, input {
     font-family: 'Teko', sans-serif;
